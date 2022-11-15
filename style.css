@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+* {
+  font-family: "Fredoka One", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+a {
+  font-size: 6vw;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #363636;
+  background: linear-gradient(to right, #363636 0%, #363636 100%);
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  transition-duration: 1s;
+  background-size: 0 6%;
+}
+a:hover {
+  background-size: 100% 6%;
+}
+
+.content {
+  text-align: center;
+  font-size: 30px;
+}
+
+.inputField {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#userinput {
+  width: 500px;
+  height: 40px;
+  font-size: 25px;
+}
+
+#enter {
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+#taskList {
+  width: 35vw;
+  margin: 0 auto;
+}
+#taskContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task {
+  font-size: 40px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#delBtn {
+  color: red;
+  font-size: 30px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through red;
+}
